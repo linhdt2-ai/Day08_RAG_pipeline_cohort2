@@ -73,6 +73,63 @@ _bm25 = build_bm25_index(CORPUS) if CORPUS else None
 
 
 # =============================================================================
+# Passage Extraction — Trích xuất đoạn ngắn từ document match
+# =============================================================================
+
+def _extract_best_passage(content: str, query_tokens: list, chunk_size: int = 500) -> str:
+    """
+    Tìm đoạn văn bản ngắn nhất (~chunk_size ký tự) chứa nhiều từ khóa nhất
+    trong document, thay vì trả về toàn bộ nội dung file.
+
+    BM25 tìm document match chính xác nhờ index toàn bộ (TF/IDF context đầy đủ),
+    nhưng ta chỉ trả về đoạn passage liên quan nhất để tránh tốn token LLM.
+
+    Args:
+        content: Nội dung toàn bộ document
+        query_tokens: Danh sách token từ khóa (đã lowercase)
+        chunk_size: Số ký tự tối đa của passage trả về
+
+    Returns:
+        Đoạn văn bản ngắn ~chunk_size ký tự chứa nhiều từ khóa nhất.
+    """
+    if not content:
+        return ""
+
+    query_set = set(query_tokens)
+    words = content.split()
+
+    if not words:
+        return content[:chunk_size]
+
+    # Số từ xấp xỉ trong một window chunk_size ký tự (trung bình 5 ký tự/từ tiếng Việt)
+    window_words = max(1, chunk_size // 5)
+    step = max(1, window_words // 2)  # Sliding window, bước = 50% window
+
+    best_start_word = 0
+    best_overlap = -1
+
+    for i in range(0, len(words), step):
+        window = words[i:i + window_words]
+        overlap = sum(1 for w in window if w.lower() in query_set)
+        if overlap > best_overlap:
+            best_overlap = overlap
+            best_start_word = i
+
+    # Tính vị trí ký tự tương ứng
+    char_start = len(" ".join(words[:best_start_word]))
+    if best_start_word > 0:
+        char_start += 1  # bù khoảng trắng
+
+    passage = content[char_start:char_start + chunk_size].strip()
+
+    # Nếu passage quá ngắn (ít từ khóa đầu file), lấy từ đầu
+    if len(passage) < chunk_size // 2:
+        passage = content[:chunk_size].strip()
+
+    return passage
+
+
+# =============================================================================
 # Lexical Search
 # =============================================================================
 
@@ -106,8 +163,15 @@ def lexical_search(query: str, top_k: int = 10) -> list[dict]:
     for idx in top_indices:
         score = float(scores[idx])
         if score > 0:  # Chỉ trả về docs có keyword match thực sự
+            # Extract passage ngắn (~500 ký tự) chứa nhiều từ khóa nhất
+            # thay vì trả nguyên file gốc có thể lên đến 432KB (~108k tokens)
+            passage = _extract_best_passage(
+                CORPUS[idx]["content"],
+                tokenized_query,
+                chunk_size=500
+            )
             results.append({
-                "content": CORPUS[idx]["content"],
+                "content": passage,
                 "score": score,
                 "metadata": CORPUS[idx]["metadata"]
             })

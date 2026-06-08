@@ -116,9 +116,13 @@ def format_context(chunks: list[dict]) -> str:
     for i, chunk in enumerate(chunks, 1):
         source = chunk.get("metadata", {}).get("source", f"Source {i}")
         doc_type = chunk.get("metadata", {}).get("type", "unknown")
+        # Giới hạn phòng vệ: mỗi chunk tối đa 1000 ký tự (đảm bảo không vượt budget dù bất kỳ fallback nào)
+        content = chunk["content"]
+        if len(content) > 1000:
+            content = content[:1000] + "..."
         context_parts.append(
             f"[Document {i} | Source: {source} | Type: {doc_type}]\n"
-            f"{chunk['content']}\n"
+            f"{content}\n"
         )
     return "\n---\n".join(context_parts)
 
@@ -176,6 +180,7 @@ def generate_with_citation(query: str, top_k: int = TOP_K) -> dict:
         ],
         "temperature": TEMPERATURE,   # 0.3 — factual RAG
         "top_p": TOP_P,               # 0.9 — nucleus sampling
+        "max_tokens": 1000,           # Giới hạn output tối đa — tránh vòng lặp vô hạn
     }
 
     response = requests.post(API_URL, headers=headers, json=payload, timeout=120)
