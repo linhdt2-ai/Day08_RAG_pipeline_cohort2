@@ -1,17 +1,77 @@
 [
   {
-    "question": "Hình phạt cho tội tàng trữ trái phép chất ma tuý theo Điều 249 Bộ luật Hình sự?",
-    "expected_answer": "Phạt tù từ 1 đến 5 năm đối với trường hợp tàng trữ từ 1g đến dưới 5g heroin hoặc cocaine, hoặc chất ma tuý khác với khối lượng tương đương.",
-    "expected_context": "Bộ luật Hình sự 2015, Điều 249"
+    "question": "Hình phạt cho tội tàng trữ trái phép chất ma tuý đối với cá nhân là gì?",
+    "expected_answer": "Theo Điều 249 Bộ luật Hình sự 2015 (sửa đổi 2017), người nào tàng trữ trái phép chất ma tuý mà không nhằm mục đích mua bán, vận chuyển, sản xuất trái phép chất ma tuý sẽ bị phạt tù từ 01 năm đến 05 năm đối với các trường hợp thông thường (như nhựa thuốc phiện, nhựa cần sa có khối lượng từ 500g đến dưới 1kg, hoặc heroin, cocaine, methamphetamine... có khối lượng từ 0,1g đến dưới 5g). Trong các trường hợp nghiêm trọng hơn, hình phạt có thể lên tới 10 năm, 15 năm hoặc tối đa là tù chung thân.",
+    "expected_context": "Điều 249. Tội tàng trữ trái phép chất ma túy\n1. Người nào tàng trữ trái phép chất ma túy mà không nhằm mục đích mua bán, vận chuyển, sản xuất trái phép chất ma túy thuộc một trong các trường hợp sau đây, thì bị phạt tù từ 01 năm đến 05 năm..."
   },
   {
-    "question": "Luật Phòng chống ma tuý 2021 quy định những hình thức cai nghiện nào?",
-    "expected_answer": "Cai nghiện tự nguyện tại gia đình, cai nghiện tự nguyện tại cộng đồng, cai nghiện tự nguyện tại cơ sở cai nghiện, và cai nghiện bắt buộc tại cơ sở cai nghiện.",
-    "expected_context": "Luật Phòng chống ma tuý 2021, Chương V"
+    "question": "Vụ việc ca sĩ Chi Dân bị nghi vấn liên quan đến ma túy diễn ra như thế nào?",
+    "expected_answer": "Công an quận Tân Bình, TP.HCM đã tiến hành điều tra vụ việc ca sĩ Chi Dân (tên thật là Nguyễn Trung Hiếu, 35 tuổi) cùng một số người khác do nghi vấn sử dụng trái phép chất ma túy. Đây là lần thứ hai nam ca sĩ vướng vào nghi vấn liên quan đến chất cấm, sau lần đầu tiên vào tháng 4/2023 khi anh phải livestream xin lỗi khán giả.",
+    "expected_context": "Công an quận Tân Bình, TP.HCM đang điều tra vụ việc ca sĩ Chi Dân (tên thật là Nguyễn Trung Hiếu, 35 tuổi) cùng một số người nghi vấn sử dụng ma túy."
   },
   {
-    "question": "Danh mục các chất ma tuý thuộc nhóm I theo quy định pháp luật Việt Nam gồm những chất nào?",
-    "expected_answer": "Nhóm I gồm các chất ma tuý tuyệt đối cấm sử dụng trong y học và đời sống, bao gồm heroin, cocaine, methamphetamine, MDMA (ecstasy), cannabis (cần sa), và các chất tương tự.",
-    "expected_context": "Nghị định 57/2022/NĐ-CP, Phụ lục I"
+    "question": "Quy định về thời hạn cai nghiện ma túy tự nguyện tại gia đình và cộng đồng là bao lâu theo Luật Phòng chống ma túy 2021?",
+    "expected_answer": "Theo Luật Phòng, chống ma túy 2021, thời hạn cai nghiện ma túy tự nguyện tại gia đình và cộng đồng là từ đủ 06 tháng đến 12 tháng. Người cai nghiện tự nguyện được hỗ trợ kinh phí và điều trị cắt cơn, giải độc, phục hồi sức khỏe.",
+    "expected_context": "Thời hạn cai nghiện ma túy tự nguyện tại gia đình và cộng đồng là từ đủ 06 tháng đến 12 tháng."
+  },
+  {
+    "question": "Nghị định 105/2021/NĐ-CP hướng dẫn những nội dung chính nào về phòng chống ma túy?",
+    "expected_answer": "Nghị định 105/2021/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng, chống ma túy về công tác phối hợp của các cơ quan chuyên trách phòng, chống tội phạm về ma túy; kiểm soát các hoạt động hợp pháp liên quan đến ma túy; và quy trình cai nghiện ma túy, quản lý sau cai nghiện.",
+    "expected_context": "Nghị định này quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phòng, chống ma túy về:\n1. Phối hợp của các cơ quan chuyên trách phòng, chống tội phạm về ma túy...\n2. Kiểm soát các hoạt động hợp pháp liên quan đến ma túy..."
+  },
+  {
+    "question": "Tội sản xuất trái phép chất ma túy theo Bộ luật Hình sự quy định mức hình phạt cao nhất là gì?",
+    "expected_answer": "Theo Điều 248 Bộ luật Hình sự 2015, tội sản xuất trái phép chất ma túy có mức hình phạt cao nhất là tử hình nếu phạm tội thuộc các trường hợp đặc biệt nghiêm trọng, chẳng hạn như sản xuất heroin, cocaine, methamphetamine... có khối lượng 120 gam trở lên, hoặc các chất ma túy khác có khối lượng tương đương.",
+    "expected_context": "Điều 248. Tội sản xuất trái phép chất ma túy\n4. Phạm tội thuộc một trong các trường hợp sau đây, thì bị phạt tù 20 năm, tù chung thân hoặc tử hình:\na) Nhựa thuốc phiện, nhựa cần sa... có khối lượng 500 gam trở lên;\nb) Hêrôin, côcain, methamphetamine... có khối lượng 120 gam trở lên..."
+  },
+  {
+    "question": "Quy định về đối tượng bị áp dụng biện pháp cai nghiện bắt buộc theo Luật Phòng chống ma túy 2021?",
+    "expected_answer": "Người nghiện ma túy từ đủ 18 tuổi trở lên bị áp dụng biện pháp xử lý hành chính đưa vào cơ sở cai nghiện bắt buộc khi: không đăng ký cai nghiện tự nguyện; không thực hiện cai nghiện tự nguyện; bị phát hiện sử dụng trái phép chất ma túy trong thời gian cai nghiện tự nguyện; hoặc tiếp tục sử dụng ma túy trong thời gian quản lý sau cai nghiện.",
+    "expected_context": "Người nghiện ma túy từ đủ 18 tuổi trở lên bị áp dụng biện pháp xử lý hành chính đưa vào cơ sở cai nghiện bắt buộc theo quy định của Luật Xử lý vi phạm hành chính khi thuộc một trong các trường hợp sau đây..."
+  },
+  {
+    "question": "Cai nghiện ma túy cho người từ đủ 12 tuổi đến dưới 18 tuổi được quy định như thế nào?",
+    "expected_answer": "Người nghiện ma túy từ đủ 12 tuổi đến dưới 18 tuổi được đưa vào cơ sở cai nghiện bắt buộc nếu không đăng ký hoặc không thực hiện cai nghiện tự nguyện, hoặc bị phát hiện sử dụng ma túy trong thời gian cai nghiện tự nguyện. Tuy nhiên, việc đưa vào cơ sở cai nghiện bắt buộc đối với đối tượng này không bị coi là biện pháp xử lý hành chính và thời hạn cai nghiện bắt buộc là từ 06 tháng đến 12 tháng.",
+    "expected_context": "Người nghiện ma túy từ đủ 12 tuổi đến dưới 18 tuổi bị đưa vào cơ sở cai nghiện bắt buộc khi thuộc một trong các trường hợp sau đây...\nKhoản này không bị coi là biện pháp xử lý hành chính..."
+  },
+  {
+    "question": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy gồm những lực lượng nào theo Nghị định 105?",
+    "expected_answer": "Các cơ quan chuyên trách gồm: Lực lượng chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân; lực lượng chuyên trách thuộc Bộ đội Biên phòng, Cảnh sát biển và lực lượng chuyên trách thuộc Tổng cục Hải quan.",
+    "expected_context": "Các cơ quan chuyên trách phòng, chống tội phạm về ma túy bao gồm:\n1. Cơ quan chuyên trách thuộc Công an nhân dân.\n2. Cơ quan chuyên trách thuộc Bộ đội Biên phòng.\n3. Cơ quan chuyên trách thuộc Cảnh sát biển.\n4. Cơ quan chuyên trách thuộc Hải quan."
+  },
+  {
+    "question": "Tội tổ chức sử dụng trái phép chất ma túy bị phạt tù bao nhiêu năm theo Điều 255 Bộ luật Hình sự?",
+    "expected_answer": "Theo Điều 255 Bộ luật Hình sự, người nào tổ chức sử dụng trái phép chất ma túy dưới bất kỳ hình thức nào thì bị phạt tù từ 02 năm đến 07 năm đối với khung hình phạt cơ bản. Nếu phạm tội thuộc các tình tiết tăng nặng như tổ chức sử dụng cho 02 người trở lên, cho người dưới 18 tuổi... thì phạt tù từ 07 đến 15 năm, 15 đến 20 năm hoặc tù chung thân.",
+    "expected_context": "Điều 255. Tội tổ chức sử dụng trái phép chất ma túy\n1. Người nào tổ chức sử dụng trái phép chất ma túy dưới bất kỳ hình thức nào, thì bị phạt tù từ 02 năm đến 07 năm..."
+  },
+  {
+    "question": "Người nghiện ma túy tự nguyện cai nghiện tại các cơ sở tư nhân có được hỗ trợ gì không?",
+    "expected_answer": "Người nghiện ma túy cai nghiện tự nguyện tại các cơ sở cai nghiện ma túy tư nhân hoặc công lập được Nhà nước hỗ trợ một phần kinh phí điều trị và tiền ăn, sinh hoạt phí tùy thuộc vào chính sách của từng địa phương và đối tượng chính sách ưu tiên.",
+    "expected_context": "Nhà nước hỗ trợ kinh phí đối với người tự nguyện cai nghiện ma túy tại các cơ sở cai nghiện ma túy công lập và tư nhân..."
+  },
+  {
+    "question": "Quy trình đăng ký cai nghiện ma túy tự nguyện được thực hiện tại đâu?",
+    "expected_answer": "Người nghiện ma túy hoặc người đại diện hợp pháp đăng ký cai nghiện tự nguyện tại Ủy ban nhân dân cấp xã nơi cư trú. Hồ sơ đăng ký gồm bản đăng ký cai nghiện tự nguyện kèm theo kết quả xác định tình trạng nghiện ma túy của cơ quan y tế.",
+    "expected_context": "Người nghiện ma túy đăng ký cai nghiện tự nguyện tại Ủy ban nhân dân cấp xã nơi cư trú..."
+  },
+  {
+    "question": "Hành vi sử dụng trái phép chất ma túy bị xử phạt như thế nào theo quy định pháp luật hành chính?",
+    "expected_answer": "Hành vi sử dụng trái phép chất ma túy bị xử phạt cảnh cáo hoặc phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng theo Nghị định xử phạt vi phạm hành chính trong lĩnh vực an ninh, trật tự, an toàn xã hội. Người sử dụng trái phép chất ma túy cũng sẽ bị lập hồ sơ quản lý và theo dõi tại địa phương trong thời hạn 01 năm.",
+    "expected_context": "Người sử dụng trái phép chất ma túy bị xử phạt hành chính và lập danh sách quản lý tại địa phương..."
+  },
+  {
+    "question": "Theo Luật Phòng chống ma túy, thời hạn quản lý sau cai nghiện tại nơi cư trú là bao lâu?",
+    "expected_answer": "Thời hạn quản lý sau cai nghiện tại nơi cư trú là 02 năm đối với người đã hoàn thành cai nghiện bắt buộc hoặc người hoàn thành cai nghiện tự nguyện tại cơ sở cai nghiện công lập.",
+    "expected_context": "Thời hạn quản lý sau cai nghiện tại nơi cư trú là 02 năm kể từ ngày người hoàn thành cai nghiện ma túy..."
+  },
+  {
+    "question": "Mục đích của việc kiểm soát các hoạt động hợp pháp liên quan đến ma túy là gì?",
+    "expected_answer": "Mục đích nhằm ngăn ngừa việc thất thoát, lạm dụng các chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần vào các mục đích bất hợp pháp (như sản xuất ma túy trái phép), trong khi vẫn đảm bảo nguồn cung hợp pháp phục vụ y tế, nghiên cứu khoa học và công nghiệp.",
+    "expected_context": "Kiểm soát các hoạt động hợp pháp liên quan đến ma túy là nhằm chủ động phòng ngừa, ngăn chặn việc thất thoát các chất ma túy, tiền chất..."
+  },
+  {
+    "question": "Trách nhiệm của gia đình người nghiện ma túy được quy định như thế nào trong Luật Phòng chống ma túy?",
+    "expected_answer": "Gia đình có trách nhiệm: Giáo dục thành viên không sử dụng ma túy; phát hiện, báo cáo kịp thời hành vi sử dụng hoặc buôn bán ma túy; hỗ trợ người nghiện thực hiện quy trình cai nghiện tự nguyện hoặc bắt buộc; và giúp đỡ, quản lý người sau cai nghiện phòng chống tái nghiện.",
+    "expected_context": "Gia đình người nghiện ma túy có trách nhiệm giáo dục, quản lý, giúp đỡ người nghiện ma túy thực hiện các biện pháp cai nghiện..."
   }
 ]

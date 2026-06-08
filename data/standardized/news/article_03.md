@@ -1,0 +1,66 @@
+# Trước khi bị bắt giam vì ma túy, Chi Dân thường khoe cuộc sống giàu sang
+
+**Source:** https://vtcnews.vn/truoc-khi-bi-bat-giam-vi-ma-tuy-chi-dan-thuong-khoe-cuoc-song-giau-sang-ar907306.html
+**Crawled:** 2026-06-08T11:45:33.163086
+
+---
+
+- Văn hóa - Giải trí
+
+- Sao Việt
+
+# Trước khi bị bắt giam vì ma túy, Chi Dân thường khoe cuộc sống giàu sang
+
+## Trước khi bị bắt giam vì liên quan tới ma túy, Chi Dân thường khoe tài sản ''khủng'' gồm căn hộ hạng sang, xe hơi tiền tỷ và nhiều trang phục đắt tiền.
+
+Ngày 14/11, Công an TP.HCM khởi tố bị can, bắt giam ca sĩ Nguyễn Trung Hiếu (nghệ danh Chi Dân) do tổ chức sử dụng trái phép chất ma tuý.
+
+Ca sĩ Chi Dân tại cơ quan điều tra. (Ảnh Công an cung cấp).
+
+Chi Dân sinh năm 1989, có bố là nhạc công, còn mẹ là ca sĩ. Do thấu hiểu những khó khăn, vất vả của nghệ thuật nên bố mẹ không muốn Chi Dân nối nghiệp. Tuy nhiên, anh vẫn quyết định theo công việc làm ca sĩ.
+
+Anh bắt đầu hoạt động nghệ thuật từ năm 2012 ở vai trò ca sĩ, nhạc sĩ với sở trường nhạc pop, ballad. Năm 2013, Chi Dân được yêu mến khi liên tục tạo ra các bản hit như Mất trí nhớ, Điều anh biết, Người tôi yêu, 1234… Ngoài ca hát, Chi Dân còn có sáng tác gây được ấn tượng là Anh muốn em sống sao - hit nổi tiếng làm nên tên tuổi ca sĩ Bảo Anh.
+
+Ngoài ra, anh còn lấn sân sang lĩnh vực diễn xuất và tham dự các chương trình truyền hình thực tế. Năm 2017, nam ca sĩ vinh dự nhận được giải Mai vàng ở hạng mục 10 nghệ sĩ của năm và lọt top 5 Nghệ sĩ xuất sắc châu Á (Best Asian artist in Vietnam) trong danh sách đề cử giải thưởng MAMA (Mnet Asian Music Awards - Giải thưởng Âm nhạc Châu Á Mnet).
+
+Trước khi bị bắt, Chi Dân sở hữu khối tài sản ''khủng''.
+
+Thời điểm mới đi hát, Chi Dân từng chia sẻ nhận về mức cát-xê chỉ vài chục nghìn đồng: "Cát-xê chỉ 50.000 đồng. Tôi đi hát rất xa, đổ xăng nhiều khi đã hết 20.000 - 30.000 đồng rồi, còn lại đủ để ăn một ổ bánh mì nhưng vẫn cảm thấy rất vui vì đã làm ra tiền". Sau này nổi tiếng, cát-xê của Chi Dân đã vượt xa, giúp anh có được một cuộc sống thoải mái dù xuất phát điểm không phải người giàu có.
+
+Hơn 10 năm hoạt động trong showbiz Việt, nam ca sĩ sở hữu tài sản giá trị gồm căn hộ hạng sang, xe hơi tiền tỷ và nhiều trang phục đắt tiền.
+
+Hiện tại, anh đang sinh sống trong một căn hộ tại TP.HCM với góc nhìn thoáng đãng. Không gian sống được anh chăm chút tỉ mỉ, thể hiện gu thẩm mỹ tinh tế. Bên trong căn hộ, nam ca sĩ còn đầu tư riêng một phòng thu âm hiện đại phục vụ cho công việc sáng tác âm nhạc.
+
+Chi Dân sống trong một căn hộ tại TP.HCM có phòng thu âm hiện đại.
+
+Ngoài bất động sản, Chi Dân còn khoe chiếc xe Porsche Macan trị giá hơn 3 tỷ đồng. Bên cạnh đó, nam ca sĩ cũng sở hữu hàng loạt xe hơi đắt tiền khác từ những thương hiệu nổi tiếng trên thế giới.
+
+Chi Dân cũng mạnh tay chi tiền cho các sản phẩm âm nhạc của mình. Anh thường xuyên đi du lịch đến nhiều địa điểm nổi tiếng trong và ngoài nước. Qua các chuyến đi này, anh không ngần ngại thể hiện phong cách thời trang ấn tượng với loạt trang phục đắt tiền, đến từ nhiều thương hiệu lớn trên thế giới.
+
+Chi Dân khoe chiếc Porsche Macan trị giá hơn 3 tỷ đồng.
+
+Những năm qua, cuộc sống của Chi Dân trải qua nhiều biến cố, đặc biệt là cú sốc lớn khi mẹ anh ra đi đột ngột vào năm 2021.
+
+Đầu tháng 4/2023, Chi Dân vướng nghi vấn sử dụng chất cấm. Sau đó, Chi Dân livestream khóc và xin lỗi khán giả và hứa thay đổi. "Tôi xin lỗi những khán giả đã yêu thương và những người đã buồn, thất vọng vì tôi thời gian qua. Tôi xin lỗi người hâm mộ, tất cả đồng nghiệp - những người đã giúp đỡ, từng thương yêu tôi.
+
+Sau biến cố về gia đình và tình yêu không như mong đợi, thời gian qua, Chi Dân đã sống không đúng với nghề nghiệp, tình cảm mọi người dành cho Chi Dân. Một lần nữa cho Chi Dân xin lỗi", Chi Dân nghẹn ngào chia sẻ. Anh mong được các fan thông cảm, bỏ qua, cho mình cơ hội cống hiến cho âm nhạc.
+
+Tuy nhiên, ngày 10/11 vừa qua, nam ca sĩ tiếp tục vướng nghi vấn sử dụng ma túy. Hai lần liên quan đến việc sử dụng chất cấm khiến sự nghiệp, hình ảnh của Chi Dân trượt dốc. Nhiều khán giả tiếc nuối cho Chi Dân khi anh từng là một trong những nam ca sĩ trẻ được yêu thích.
+
+### Điều tra vụ ca sĩ Chi Dân nghi liên quan ma túy
+
+### Bắt giam ca sĩ Chi Dân, người mẫu An Tây
+
+### Ca sĩ Chi Dân: Sự nghiệp trượt dốc, 2 lần bị nghi liên quan ma tuý
+
+### Ca sĩ Chi Dân bị điều tra nghi liên quan đến ma túy
+
+- chi dân
+
+- An Tây
+
+- ca sĩ Chi Dân
+
+- ca sĩ Chi Dân bị bắt
+
+- chi dân ma túy

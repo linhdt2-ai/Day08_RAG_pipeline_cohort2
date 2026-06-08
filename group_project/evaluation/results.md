@@ -1,56 +1,25 @@
-# RAG Evaluation Results
+# Báo Cáo Đánh Giá RAG Pipeline (DeepEval Evaluation Report)
 
-## Framework sử dụng
+Báo cáo kết quả đánh giá chất lượng câu trả lời RAG Chatbot và so sánh A/B Testing giữa hai cấu hình RAG khác nhau.
 
-> Ghi rõ framework đã chọn: DeepEval / RAGAS / TruLens
-
----
-
-## Overall Scores
-
-| Metric | Config A (hybrid + rerank) | Config B (dense-only) | Δ |
-|--------|---------------------------|----------------------|---|
-| Faithfulness | | | |
-| Answer Relevance | | | |
-| Context Recall | | | |
-| Context Precision | | | |
-| **Average** | | | |
+*Tài liệu này sẽ được tạo tự động với điểm số thực tế sau khi chạy script đánh giá:*
+```bash
+python group_project/evaluation/eval_pipeline.py
+```
 
 ---
 
-## A/B Comparison Analysis
+## 📊 1. Bảng Điểm So Sánh A/B Testing
+So sánh giữa **Cấu hình A (Full RAG Pipeline)** có sử dụng Reranker và **Cấu hình B (Basic RAG Pipeline)** tắt Reranker.
 
-**Config A:**
-> Mô tả config ...
-
-**Config B:**
-> Mô tả config ...
-
-**Kết luận:**
-> Config nào tốt hơn? Vì sao? (2-3 câu)
-
----
-
-## Worst Performers (Bottom 3)
-
-| # | Question | Faithfulness | Relevance | Recall | Failure Stage | Root Cause |
-|---|----------|-------------|-----------|--------|---------------|------------|
-| 1 | | | | | | |
-| 2 | | | | | | |
-| 3 | | | | | | |
+| Metric | Cấu hình A (Full Pipeline với Reranker) | Cấu hình B (Basic Pipeline không Reranker) | Nhận xét sự chênh lệch |
+| :--- | :---: | :---: | :---: |
+| **Faithfulness** | `Đang chờ đánh giá...` | `Đang chờ đánh giá...` | - |
+| **Answer Relevancy** | `Đang chờ đánh giá...` | `Đang chờ đánh giá...` | - |
+| **Contextual Recall** | `Đang chờ đánh giá...` | `Đang chờ đánh giá...` | - |
+| **Contextual Precision** | `Đang chờ đánh giá...` | `Đang chờ đánh giá...` | - |
 
 ---
 
-## Recommendations
-
-### Cải tiến 1
-**Action:**  
-**Expected impact:**  
-
-### Cải tiến 2
-**Action:**  
-**Expected impact:**  
-
-### Cải tiến 3
-**Action:**  
-**Expected impact:**  
+## 🔍 2. Phân Tích Worst Performers (Các trường hợp điểm thấp nhất)
+Sau khi chạy đánh giá, 3 trường hợp câu hỏi có điểm số đánh giá kém nhất sẽ được liệt kê và phân tích nguyên nhân chi tiết tại đây kèm theo giải pháp cải tiến.
