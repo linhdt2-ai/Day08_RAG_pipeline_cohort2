@@ -1,3 +1,5 @@
 .env
 .idea/
 .tmp/
+.DS_Store
+.codegraph/
