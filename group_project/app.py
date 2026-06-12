@@ -24,7 +24,7 @@ HEADERS = {
 
 # Cấu hình trang Streamlit
 st.set_page_config(
-    page_title="RAG Trợ Lý Pháp Luật Ma Túy",
+    page_title="Hệ Thống Tra Cứu Pháp Luật",
     page_icon="⚖️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -33,22 +33,28 @@ st.set_page_config(
 # Custom Styling cho giao diện Glassmorphism và Bong bóng Chat đẹp mắt
 st.markdown("""
 <style>
-    /* Tổng thể App */
+    /* Tổng thể App - Giao diện sáng, chuyên nghiệp */
     .stApp {
-        background: radial-gradient(circle at top right, #1a1e29, #0d1117);
-        color: #e6edf3;
+        background-color: #f8f9fa;
+        color: #2c3e50;
     }
     
     /* Sidebar */
     [data-testid="stSidebar"] {
-        background-color: #161b22;
-        border-right: 1px solid #30363d;
+        background-color: #ffffff;
+        border-right: 1px solid #e0e0e0;
+    }
+    
+    /* Header chữ màu xanh đậm (Navy) */
+    h1, h2, h3 {
+        color: #0b3d91 !important;
+        font-family: 'Times New Roman', Times, serif;
     }
     
     /* Bong bóng chat user */
     .chat-user {
-        background-color: #21262d;
-        border: 1px solid #30363d;
+        background-color: #0b3d91; /* Navy blue */
+        border: 1px solid #082d6b;
         border-radius: 15px 15px 0 15px;
         padding: 12px 18px;
         margin: 10px 0;
@@ -56,47 +62,61 @@ st.markdown("""
         max-width: 80%;
         float: right;
         clear: both;
-        color: #e6edf3;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        color: #ffffff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        font-size: 15px;
     }
     
     /* Bong bóng chat assistant */
     .chat-assistant {
-        background: rgba(31, 111, 235, 0.1);
-        border: 1px solid rgba(31, 111, 235, 0.4);
+        background: #ffffff;
+        border: 1px solid #e0e0e0;
         border-radius: 15px 15px 15px 0;
-        padding: 12px 18px;
+        padding: 15px 20px;
         margin: 10px 0;
         width: fit-content;
         max-width: 80%;
         float: left;
         clear: both;
-        color: #e6edf3;
-        box-shadow: 0 4px 10px rgba(31, 111, 235, 0.05);
+        color: #2c3e50;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        font-size: 15px;
+        line-height: 1.6;
     }
     
     /* Nút bấm */
     .stButton>button {
-        background-color: #1f6feb;
+        background-color: #0b3d91; /* Navy blue */
         color: white;
-        border-radius: 8px;
-        border: none;
-        padding: 8px 16px;
+        border-radius: 4px;
+        border: 1px solid #082d6b;
+        padding: 8px 20px;
         font-weight: bold;
         transition: all 0.3s;
     }
     .stButton>button:hover {
-        background-color: #388bfd;
-        box-shadow: 0 0 12px rgba(56, 139, 253, 0.4);
+        background-color: #082d6b;
+        color: white;
+        box-shadow: 0 4px 8px rgba(11, 61, 145, 0.3);
     }
     
     /* Highlight văn bản trích dẫn */
     mark {
-        background-color: rgba(242, 193, 46, 0.3);
-        color: #f2c12e;
-        border-bottom: 1px dashed #f2c12e;
+        background-color: rgba(255, 235, 59, 0.4);
+        color: #c0392b; /* Đỏ đậm cho pháp luật */
+        border-bottom: 2px solid #c0392b;
         padding: 0 4px;
-        border-radius: 3px;
+        border-radius: 2px;
+        font-weight: bold;
+    }
+    
+    /* Định dạng trích dẫn (Blockquote) */
+    blockquote {
+        border-left: 4px solid #0b3d91;
+        background-color: #f1f4f9;
+        padding: 10px 15px;
+        color: #34495e;
+        font-style: italic;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -270,25 +290,25 @@ if "messages" not in st.session_state:
 
 # --- SIDEBAR & NAVIGATION ---
 with st.sidebar:
-    st.image("https://img.icons8.com/clouds/200/scales.png", width=100)
-    st.title("⚖️ RAG Drug Law")
-    st.write("Dự án nhóm - RAG Chatbot hỗ trợ tra cứu văn bản pháp luật ma túy & tin tức 2024.")
+    st.image("https://img.icons8.com/color/200/scales.png", width=100)
+    st.title("⚖️ HỆ THỐNG TRA CỨU PHÁP LUẬT")
+    st.write("Hệ thống ứng dụng AI hỗ trợ tra cứu văn bản pháp luật, quy định về phòng, chống ma túy và tin tức chuyên ngành.")
     
     st.markdown("---")
     
     # Lựa chọn trang
-    page = st.radio("Chọn chức năng:", ["💬 Chatbot Trợ Lý", "📊 So Sánh Thuật Toán Lexical"])
+    page = st.radio("Chọn chức năng:", ["🏛️ Trợ Lý Pháp Lý AI", "📊 Đối Chiếu Thuật Toán Tìm Kiếm"])
     
     st.markdown("---")
     
-    if st.button("🧹 Xóa lịch sử Chat"):
+    if st.button("🔄 Làm mới phiên làm việc"):
         st.session_state.messages = []
         st.rerun()
 
 # --- PAGE 1: CHATBOT TRỢ LÝ ---
-if page == "💬 Chatbot Trợ Lý":
-    st.subheader("💬 Tra Cứu Luật Ma Túy & Tin Tức")
-    st.caption("Chatbot sử dụng Hybrid Search (Semantic + BM25) + Reranker + PageIndex Fallback.")
+if page == "🏛️ Trợ Lý Pháp Lý AI":
+    st.subheader("🏛️ Trợ Lý Pháp Lý & Tra Cứu Tin Tức")
+    st.caption("Ứng dụng thuật toán Hybrid Search (Semantic + BM25) & Reranker trong phân tích pháp lý.")
 
     # Container hiển thị chat
     chat_container = st.container()
@@ -311,7 +331,7 @@ if page == "💬 Chatbot Trợ Lý":
         st.markdown('<div style="clear:both; height:20px;"></div>', unsafe_allow_html=True)
 
     # Input chat mới
-    if prompt := st.chat_input("Hỏi về tội tàng trữ ma túy, án phạt, hoặc tin tức nghệ sĩ..."):
+    if prompt := st.chat_input("Nhập câu hỏi hoặc nội dung tra cứu pháp lý (ví dụ: Quy định về xử phạt tội tàng trữ...):"):
         # Hiển thị câu hỏi của user ngay lập tức
         st.markdown(f'<div class="chat-user">{prompt}</div>', unsafe_allow_html=True)
         
@@ -360,7 +380,7 @@ if page == "💬 Chatbot Trợ Lý":
 
 # --- PAGE 2: SO SÁNH THUẬT TOÁN LEXICAL ---
 else:
-    st.subheader("📊 So Sánh Thuật Toán Lexical Search: BM25 vs TF-IDF")
+    st.subheader("📊 Đối Chiếu Thuật Toán Tìm Kiếm Văn Bản: BM25 vs TF-IDF")
     
     st.markdown("""
     Trong các bài toán RAG về văn bản pháp luật (như Bộ luật Hình sự) hoặc tin tức dài, thuật toán tìm kiếm từ khóa đóng vai trò vô cùng quan trọng. 
